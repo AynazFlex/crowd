@@ -909,7 +909,7 @@ a {
 
     .players-controls {
         gap: 12px;
-        margin: auto;
+        justify-self: center;
     }
 
     .footer {
