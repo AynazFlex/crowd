@@ -58,8 +58,6 @@ const playersSlider = new Swiper('.players-slider', {
   },
 })
 
-console.log(playersSlider)
-
 const observer = new IntersectionObserver(entries => {
 
   entries.forEach(entry => {

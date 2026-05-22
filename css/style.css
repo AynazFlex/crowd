@@ -142,9 +142,19 @@ a {
     color: white;
 }
 
+.button--dark:hover {
+    background: #FBCE51;
+    color: #1F1F1F;
+}
+
 .button--light {
     border: 2px solid #1F1F1F;
     color: #1F1F1F;
+}
+
+.button--light:hover {
+    background: #1F1F1F;
+    color: #FFFFFF;
 }
 
 .hero__visual {
