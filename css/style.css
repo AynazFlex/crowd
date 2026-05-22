@@ -525,8 +525,13 @@ a {
     cursor: pointer;
 }
 
+.players-controls button:hover,
+.stages-controls button:hover {
+    background: #FBCE51;
+} 
+
 .stages-controls .swiper-button-disabled {
-    background-color: rgb(49 49 49 / 20%);
+    background-color: rgb(49 49 49 / 20%) !important;
 }
 
 .players-pagination {
@@ -568,6 +573,11 @@ a {
     min-width: 113px;
     height: 35px;
     text-decoration: none;
+}
+
+.player-card a:hover {
+    background: #3057A2;
+    color: white;
 }
 
 .footer {
