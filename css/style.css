@@ -528,7 +528,7 @@ a {
 .players-controls button:hover,
 .stages-controls button:hover {
     background: #FBCE51;
-}
+} 
 
 .stages-controls .swiper-button-disabled {
     background-color: rgb(49 49 49 / 20%) !important;
@@ -662,7 +662,7 @@ a {
 
     .plane {
         right: 8px;
-        bottom: 409px;
+        bottom: 514px;
         width: 335px;
     }
 }
@@ -760,6 +760,12 @@ a {
 
     .button {
         width: 100%;
+    }
+
+    .plane {
+        right: 8px;
+        bottom: 409px;
+        width: 335px;
     }
 
     .hero__visual {
