@@ -528,7 +528,7 @@ a {
 .players-controls button:hover,
 .stages-controls button:hover {
     background: #FBCE51;
-} 
+}
 
 .stages-controls .swiper-button-disabled {
     background-color: rgb(49 49 49 / 20%) !important;
@@ -659,6 +659,12 @@ a {
         padding: 25px 0;
         margin: auto;
     }
+
+    .plane {
+        right: 8px;
+        bottom: 409px;
+        width: 335px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -754,12 +760,6 @@ a {
 
     .button {
         width: 100%;
-    }
-
-    .plane {
-        right: 8px;
-        bottom: 409px;
-        width: 335px;
     }
 
     .hero__visual {
@@ -883,7 +883,6 @@ a {
     }
 
     .mobile-stage {
-        background: #E9DED4;
         padding: 62px 20px 34px;
         min-height: 300px;
         gap: 30px;
